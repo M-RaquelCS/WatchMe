@@ -7,6 +7,8 @@
 </p>
 
 # Watch Me - Second Challenge of Chapter One
+
+## About challenge 🤷
 WatchMe is a simple application that shows a list of movies according to the selected genre. The main goal in this challenge is to refactor a page for listing movies according to genre. The application is fully functional but much of the code is in the `App.tsx` file, so to solve this in the best way, it is necessary to divide the application into *Sidebar and Content* that has the header and the list of movies.
 
 ## Fake API with JSON Server
