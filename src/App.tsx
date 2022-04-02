@@ -40,3 +40,10 @@ export function App() {
     </div>
   )
 }
+
+/**
+ * o useEffect funciona igual ao component Content para retornar a lista de filmes, aqui
+ * será trabalho o id do genre selecionado, ele ficará salvo aqui pois esse é o componente
+ * pai, então eu consigo enviar o id para os componentes filhos de forma simples que é
+ * com a passagem de propriedade.
+*/

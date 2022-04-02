@@ -49,3 +49,10 @@ export function Content({ selectedGenreId, selectedGenre }: ContentProps) {
   );
 
 }
+
+/**
+ * o hook useEffect tem como condição o selectedGenreId, ou seja, o useEffect será executado toda vez que o 
+ * valor do selectedGenreId mudar, que é quando mudamos o genre, de acordo com o id do genre selecionado
+ * retornamos uma lista de filmes que atende a interface de propriedades MovieProps, pegando essa lista
+ * fazemos um map para retornar um card de filme para cada posição da lista.
+*/

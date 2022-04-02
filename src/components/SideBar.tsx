@@ -41,3 +41,12 @@ export function SideBar({ handleClickButton, selectedGenreId }: SideBarProps) {
     </nav>
   );
 }
+
+/**
+ * aqui chamamos o hook 'useEffect' sem uma condição, ou seja, será executada uma única vez
+ * o 'useEffect' pegará os genres da api do JSON Server, onde irá pecorrer o arrau, encontrado
+ * no server.json, de genres com a tipagem da interface GenreResponseProps, encontrado no App.tsx,
+ * ao ler o array ele será 'setado' no estado setGenres, onde o mesmo atualiza o valor da genres,
+ * que recebe o array de genres, então para criar  um botão de gada genre, fazemos um map do array
+ * onde cada posição será um genre e retornar um Button, que é um componente com os dados do genre.
+*/
